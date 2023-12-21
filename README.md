@@ -17,15 +17,15 @@ Testing RabbitMQ with SpringBoot.
 
    |*method*|*url*|*description*|
    |--|--|--|
-   |GET|`http://localhost:8888/direct/send`|Direct Mode|
-   |GET|`http://localhost:8888/worker/send`|Worker Mode|
-   |GET|`http://localhost:8888/subscribe/send`|Publish/Subscribe Mode|
-   |GET|`http://localhost:8888/routing/send`|Routing Mode|
-   |GET|`http://localhost:8888/topics/send`|Topics Mode|
+   |GET|`http://localhost:8080/direct/send`|Direct Mode|
+   |GET|`http://localhost:8080/worker/send`|Worker Mode|
+   |GET|`http://localhost:8080/subscribe/send`|Publish/Subscribe Mode|
+   |GET|`http://localhost:8080/routing/send`|Routing Mode|
+   |GET|`http://localhost:8080/topics/send`|Topics Mode|
 
 
 
-### Dockerfile：
+### RabbitMQ Dockerfile：
 
 ```
 FROM rabbitmq:management

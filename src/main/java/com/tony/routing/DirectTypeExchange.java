@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
 @Component
-public class ExchangeDirectType {
+public class DirectTypeExchange {
 
     @Value("${exchange.d.name.1}")
     private String exchangeName;

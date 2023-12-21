@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
 @Component
-public class ExchangeFanoutType {
+public class FanoutTypeExchange {
 
     @Value("${exchange.f.name.1}")
     private String exchangeName1;

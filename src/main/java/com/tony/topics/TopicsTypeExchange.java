@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
 @Component
-public class ExchangeTopicsType {
+public class TopicsTypeExchange {
 
     @Value("${exchange.t.name.1}")
     private String topicsExchangeName;
